@@ -20,7 +20,7 @@
   --size-2xl: 1.5rem;
   --size-3xl: 1.875rem;
   --size-4xl: 2.25rem;
-  --size-4-proxl: 2.50rem;
+  --size-4-proxl: 2.5rem;
   --size-5xl: 3rem;
   --size-6xl: 3.75rem;
   --size-7xl: 4.5rem;
@@ -37,6 +37,7 @@
 
 /* css debuging */
 /* * {
+
   outline: 1px solid red;
 } */
 
@@ -100,6 +101,7 @@ body::-webkit-scrollbar {
 } */
 
 body::-webkit-scrollbar-thumb {
-  background-color: var(--clr-light);
-  outline: 1px solid var(--clr-error);
+  border-radius: 20px;
+  background-color: var(--clr-green);
+  /* outline: 1px solid var(--clr-error); */
 }
